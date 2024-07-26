@@ -1,16 +1,22 @@
 body{
+    background-image: url(images/headerpagebg.png);
     margin: 0%;
 }
 main{
+    color: white;
     margin: 20px;
 }
 .name{
     text-align: center;
     font-family: "Montserrat", sans-serif;
+    display: block;
+    background-color: #E05642;
+    color: white;
+    padding: 1px;
 }
 .navbar ul{
     list-style-type: none;
-    background-color: rgb(213, 140, 4);
+    background-color: #E05642;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
@@ -24,8 +30,18 @@ main{
     text-align: center;
 }
 .navbar a:hover{
-    background-color: rgb(168, 109, 2);
+    background-color: #AE3625;
 }
 .navbar li{
-    float: right;
+    float: left;
+}
+.section1{
+    text-align: center;
+    color: white;
+    background-color: #E05642;
+}
+.aside1{
+    display: flex;
+    align-items: right;
+    margin-right: 300px;
 }

@@ -10,7 +10,7 @@ main{
 }
 .navbar ul{
     list-style-type: none;
-    background-color: rgb(213, 140, 4);
+    background-color: #E05642;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
@@ -24,8 +24,8 @@ main{
     text-align: center;
 }
 .navbar a:hover{
-    background-color: rgb(168, 109, 2);
+    background-color: #AE3625;
 }
 .navbar li{
-    float: right;
+    float: left;
 }
